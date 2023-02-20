@@ -1,0 +1,58 @@
+body{
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+ul{
+    gap: 25px;
+}
+
+
+.about{
+    background-color: black;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.cls{
+    height:150px;
+}
+
+
+
+
+.last{
+    height: 90px;
+}
+
+.section{
+    background-size: 100% 100%;
+}
+.carousel-caption h1{
+    font-weight: bolder
+}
+
+.tex{
+    line-height: 13px;
+}
+@media(max-width:576px){
+    .bac{
+        background-position: center;
+        background-size:cover;
+   
+    }
+    .tex{
+        text-align: center;
+        line-height: 11px;
+        
+    }
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
